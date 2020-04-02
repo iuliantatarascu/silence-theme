@@ -13,10 +13,12 @@
             <dict>
                 <key>background</key>
                 <string>#141c24</string>
-                <key>caret</key>
-                <string>#f8fbff</string>
                 <key>foreground</key>
                 <string>#f8fbff</string>
+                <key>caret</key>
+                <string>#f8fbff</string>
+                <key>block_caret</key>
+                <string>#ff444490</string>
                 <key>lineHighlight</key>
                 <string>#00000059</string>
                 <key>selection</key>
@@ -283,7 +285,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffb054</string>
+                <string>#f66</string>
             </dict>
         </dict>
         <dict>
