@@ -9,16 +9,16 @@ Light and dark color scheme for [Sublime Text](https://www.sublimetext.com) and 
 
 
 ### HTML
-![HTML (Light)](screenshots/light-html.png)![HTML (Dark)](screenshots/dark-html.png)
+<img src="screenshots/light-html.png" alt="HTML (Light)" style="max-width: 400px;" /><img src="screenshots/dark-html.png" alt="HTML (Dark)" style="max-width: 400px;" />
 
 ### Python
-![Python (Light)](screenshots/light-python.png)![Python (Dark)](screenshots/dark-python.png)
+<img src="screenshots/light-python.png" alt="Python (Light)" style="max-width: 400px;" /><img src="screenshots/dark-python.png" alt="Python (Dark)" style="max-width: 400px;" />
 
 ### CSS
-![CSS (Light)](screenshots/light-css.png)![CSS (Dark)](screenshots/dark-css.png)
+<img src="screenshots/light-css.png" alt="CSS (Light)" style="max-width: 400px;" /><img src="screenshots/dark-css.png" alt="CSS (Dark)" style="max-width: 400px;" />
 
 ### JavaScript
-![JS (Light)](screenshots/light-js.png)![JS (Dark)](screenshots/dark-js.png)
+<img src="screenshots/light-js.png" alt="JS (Light)" style="max-width: 400px;" /><img src="screenshots/dark-js.png" alt="JS (Dark)" style="max-width: 400px;" />
 
 ### JSON
-![JSON (Light)](screenshots/light-json.png)![JSON (Dark)](screenshots/dark-json.png)
+<img src="screenshots/light-json.png" alt="JSON (Light)" style="max-width: 400px;" /><img src="screenshots/dark-json.png" alt="JSON (Dark)" style="max-width: 400px;" />
