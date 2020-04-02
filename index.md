@@ -12,7 +12,7 @@ Light and dark color scheme for [Sublime Text](https://www.sublimetext.com) and 
 <img src="screenshots/light-html.png" alt="HTML (Light)" style="max-width: 400px;" /><img src="screenshots/dark-html.png" alt="HTML (Dark)" style="max-width: 400px;" />
 
 ### Python
-<img src="screenshots/light-python.png" alt="Python (Light)" style="max-width: 400px;" /><img src="screenshots/dark-python.png" alt="Python (Dark)" style="max-width: 400px;" />
+<img src="screenshots/light-py.png" alt="Python (Light)" style="max-width: 400px;" /><img src="screenshots/dark-py.png" alt="Python (Dark)" style="max-width: 400px;" />
 
 ### CSS
 <img src="screenshots/light-css.png" alt="CSS (Light)" style="max-width: 400px;" /><img src="screenshots/dark-css.png" alt="CSS (Dark)" style="max-width: 400px;" />
