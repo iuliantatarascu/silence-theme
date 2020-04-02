@@ -5,16 +5,16 @@ Light and dark color scheme for [Sublime Text](https://www.sublimetext.com) and 
 ## Screenshots
 
 ### HTML
-![HTML (Light)](https://iuliantatarascu.github.io/silence-theme/screenshots/light-html.png)![HTML (Dark)](https://iuliantatarascu.github.io/silence-theme/screenshots/dark-html.png)
+<img src="https://iuliantatarascu.github.io/silence-theme/screenshots/light-html.png" alt="HTML (Light)" style="max-width: 400px;" /><img src="https://iuliantatarascu.github.io/silence-theme/screenshots/dark-html.png" alt="HTML (Dark)" style="max-width: 400px;" />
 
 ### Python
-![Python (Light)](https://iuliantatarascu.github.io/silence-theme/screenshots/light-py.png)![Python (Dark)](https://iuliantatarascu.github.io/silence-theme/screenshots/dark-py.png)
+<img src="https://iuliantatarascu.github.io/silence-theme/screenshots/light-py.png" alt="Python (Light)" style="max-width: 400px;" /><img src="https://iuliantatarascu.github.io/silence-theme/screenshots/dark-py.png" alt="Python (Dark)" style="max-width: 400px;" />
 
 ### CSS
-![CSS (Light)](https://iuliantatarascu.github.io/silence-theme/screenshots/light-css.png)![CSS (Dark)](https://iuliantatarascu.github.io/silence-theme/screenshots/dark-css.png)
+<img src="https://iuliantatarascu.github.io/silence-theme/screenshots/light-css.png" alt="CSS (Light)" style="max-width: 400px;" /><img src="https://iuliantatarascu.github.io/silence-theme/screenshots/dark-css.png" alt="CSS (Dark)" style="max-width: 400px;" />
 
 ### JavaScript
-![JavaScript (Light)](https://iuliantatarascu.github.io/silence-theme/screenshots/light-js.png)![JavaScript (Dark)](https://iuliantatarascu.github.io/silence-theme/screenshots/dark-js.png)
+<img src="https://iuliantatarascu.github.io/silence-theme/screenshots/light-js.png" alt="JavaScript (Light)" style="max-width: 400px;" /><img src="https://iuliantatarascu.github.io/silence-theme/screenshots/dark-js.png" alt="JavaScript (Dark)" style="max-width: 400px;" />
 
 ### JSON
-![JSON (Light)](https://iuliantatarascu.github.io/silence-theme/screenshots/light-json.png)![JSON (Dark)](https://iuliantatarascu.github.io/silence-theme/screenshots/dark-json.png)
+<img src="https://iuliantatarascu.github.io/silence-theme/screenshots/light-json.png" alt="JSON (Light)" style="max-width: 400px;" /><img src="https://iuliantatarascu.github.io/silence-theme/screenshots/dark-json.png" alt="JSON (Dark)" style="max-width: 400px;" />
