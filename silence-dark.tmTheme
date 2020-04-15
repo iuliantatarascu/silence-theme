@@ -749,11 +749,11 @@
         <!-- python -->
         <dict>
             <key>scope</key>
-            <string>source.python variable.parameter</string>
+            <string>source.python punctuation.section.interpolation</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string></string>
+                <string>#ff628c</string>
             </dict>
         </dict>
         <!-- /python -->

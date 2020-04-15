@@ -684,6 +684,15 @@
                 <string>#07b607</string>
             </dict>
         </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.python punctuation.section.interpolation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dc143c</string>
+            </dict>
+        </dict>
         <!-- /python -->
 
         <!-- tex -->
