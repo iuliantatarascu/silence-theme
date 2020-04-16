@@ -636,6 +636,36 @@
         </dict>
         <!-- /rust -->
 
+        <!-- javascript -->
+        <dict>
+            <key>scope</key>
+            <string>source.js meta.object-literal.key</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a5aaf3</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.js punctuation.dollar</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff628c</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.js punctuation.definition.template-expression</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff628c</string>
+            </dict>
+        </dict>
+        <!-- /javascript -->
+
         <!-- json -->
         <dict>
             <key>name</key>
