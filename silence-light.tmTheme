@@ -1260,6 +1260,15 @@
                 <string>#dc143c</string>
             </dict>
         </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.js punctuation.definition.template-expression</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dc143c</string>
+            </dict>
+        </dict>
         <!-- /javascript -->
 
         <!-- typescript -->
