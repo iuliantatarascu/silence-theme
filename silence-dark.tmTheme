@@ -591,7 +591,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.rust support.macro</string>
+            <string>source.rust support.macro, source.rust support.function.std, source.rust entity.name.function.macro</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -784,6 +784,24 @@
             <dict>
                 <key>foreground</key>
                 <string>#ff628c</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.python string.regexp support.other.escape</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#c18fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.python string.regexp punctuation.parenthesis</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e1efff</string>
             </dict>
         </dict>
         <!-- /python -->
