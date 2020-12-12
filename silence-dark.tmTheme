@@ -254,7 +254,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>string constant</string>
+            <string>string constant, meta.interpolation</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -537,6 +537,15 @@
         <!-- rust -->
         <dict>
             <key>scope</key>
+            <string>source.rust variable.other</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8fbff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>source.rust keyword</string>
             <key>settings</key>
             <dict>
@@ -555,7 +564,16 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.rust storage.type.source, source.rust storage.type.numeric</string>
+            <string>source.rust keyword.operator.access</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8fbff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.rust storage.type.source, source.rust storage.type.numeric, source.rust entity.name.type, source.rust constant.numeric.decimal entity.name.type.numeric</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -573,7 +591,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.rust meta.annotation</string>
+            <string>source.rust meta.annotation, source.rust punctuation.definition.attribute, source.rust punctuation.brackets.attribute</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -582,7 +600,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.rust punctuation.definition - punctuation.definition.string</string>
+            <string>source.rust punctuation.definition - punctuation.definition.string, source.rust punctuation.brackets</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -609,7 +627,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.rust meta.path</string>
+            <string>source.rust meta.path, source.rust entity.name.namespace, source.rust keyword.operator.namespace</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -627,11 +645,29 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.rust support.type</string>
+            <string>source.rust support.type, source.rust entity.name.type.result, source.rust entity.name.type.option</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#d88ae5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.rust entity.name.type.numeric, source.rust string.quoted.byte.raw</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff9d00</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.rust meta.interpolation punctuation.definition</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff628c</string>
             </dict>
         </dict>
         <!-- /rust -->
@@ -779,6 +815,15 @@
         <!-- python -->
         <dict>
             <key>scope</key>
+            <string>source.python meta.interpolation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8fbff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>source.python punctuation.section.interpolation</string>
             <key>settings</key>
             <dict>
@@ -797,7 +842,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.python string.regexp punctuation.parenthesis</string>
+            <string>source.python string.regexp punctuation.parenthesis, source.python string.regexp constant.other.set</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
