@@ -1152,6 +1152,42 @@
                 <string>#ff4500</string>
             </dict>
         </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag.sgml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#000061</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#07c007</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.function-call</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#00407f</string>
+            </dict>
+        </dict>
         <!-- /html -->
 
         <!-- php -->
