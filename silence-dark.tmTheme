@@ -27,6 +27,8 @@
                 <string>bold underline</string>
                 <key>bracket_contents_options</key>
                 <string>bold underline</string>
+                <key>accent</key>
+                <string>#5af</string>
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {
@@ -911,6 +913,45 @@
         </dict>
         <!-- /lua -->
 
+        <!-- html -->
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8fbff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag.sgml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9effff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#07c007</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.function-call</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8fc7ff</string>
+            </dict>
+        </dict>
+        <!-- /html -->
+
         <!-- scss -->
         <dict>
             <key>scope</key>
@@ -918,7 +959,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#fff</string>
+                <string>#f8fbff</string>
             </dict>
         </dict>
         <dict>
