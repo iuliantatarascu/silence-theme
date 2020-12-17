@@ -124,6 +124,15 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>entity.name</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#0079d3</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>keyword</string>
             <key>settings</key>
             <dict>
@@ -1188,6 +1197,15 @@
                 <string>#00407f</string>
             </dict>
         </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag entity.name invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#0079d3</string>
+            </dict>
+        </dict>
         <!-- /html -->
 
         <!-- php -->
@@ -1248,16 +1266,6 @@
             </dict>
         </dict>
         <!-- /php -->
-
-        <dict>
-            <key>scope</key>
-            <string>entity.name</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#0079d3</string>
-            </dict>
-        </dict>
 
         <!-- javascript -->
         <dict>

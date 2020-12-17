@@ -950,6 +950,15 @@
                 <string>#8fc7ff</string>
             </dict>
         </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html meta.tag entity.name invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#5af</string>
+            </dict>
+        </dict>
         <!-- /html -->
 
         <!-- scss -->
