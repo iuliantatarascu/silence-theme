@@ -2,7 +2,7 @@
     "name": "silence-theme",
     "displayName": "Silence Theme",
     "description": "Light and dark color scheme for Sublime Text and Visual Studio Code.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "iulian-tatarascu",
     "license": "MIT",
     "repository": {
