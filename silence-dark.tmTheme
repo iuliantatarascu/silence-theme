@@ -171,7 +171,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>support</string>
+            <string>support - source.json support</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -695,7 +695,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.js punctuation.definition.template-expression</string>
+            <string>source.js punctuation.definition.template-expression, source.ts punctuation.definition.template-expression</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -707,9 +707,9 @@
         <!-- json -->
         <dict>
             <key>name</key>
-            <string>JSON - 5 deep</string>
+            <string>JSON - 6 deep key</string>
             <key>scope</key>
-            <string>source.json meta meta meta meta meta meta string</string>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping string, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -718,9 +718,20 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 4 deep</string>
+            <string>JSON - 6 deep value</string>
             <key>scope</key>
-            <string>source.json meta meta meta meta meta string</string>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping string - meta.mapping.key, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9fa</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 5 deep key</string>
+            <key>scope</key>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping string, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -729,9 +740,42 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 3 deep</string>
+            <string>JSON - 5 deep value</string>
             <key>scope</key>
-            <string>source.json meta meta meta meta string</string>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping string - meta.mapping.key, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#c2c2ff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 4 deep key</string>
+            <key>scope</key>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping string, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#13c3c3</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 4 deep value</string>
+            <key>scope</key>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping string - meta.mapping.key, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6bffff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 3 deep key</string>
+            <key>scope</key>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping string, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -740,9 +784,20 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 2 deep</string>
+            <string>JSON - 3 deep value</string>
             <key>scope</key>
-            <string>source.json meta meta meta string</string>
+            <string>source.json meta.mapping meta.mapping meta.mapping meta.mapping string - meta.mapping.key, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffdeb8</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 2 deep key</string>
+            <key>scope</key>
+            <string>source.json meta.mapping meta.mapping meta.mapping string, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -751,9 +806,20 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 1 deep</string>
+            <string>JSON - 2 deep value</string>
             <key>scope</key>
-            <string>source.json meta meta string</string>
+            <string>source.json meta.mapping meta.mapping meta.mapping string - meta.mapping.key, source.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a3d1ff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 1 deep key</string>
+            <key>scope</key>
+            <string>source.json meta.mapping meta.mapping string, source.json meta.structure.dictionary.json meta.structure.dictionary.json string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -762,9 +828,20 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 0 deep</string>
+            <string>JSON - 1 deep value</string>
             <key>scope</key>
-            <string>source.json meta string</string>
+            <string>source.json meta.mapping meta.mapping string - meta.mapping.key, source.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff8a8a</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 0 deep key</string>
+            <key>scope</key>
+            <string>source.json meta.mapping string, source.json meta.structure.dictionary.json string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -773,13 +850,13 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 0 deep</string>
+            <string>JSON - 0 deep value</string>
             <key>scope</key>
-            <string>source.json.sublime.settings string.quoted</string>
+            <string>source.json meta.mapping string - meta.mapping.key, source.json meta.structure.dictionary.json string.quoted</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#07c007</string>
+                <string>#9fa</string>
             </dict>
         </dict>
         <!-- /json -->
@@ -960,6 +1037,27 @@
             </dict>
         </dict>
         <!-- /html -->
+
+        <!-- php -->
+        <dict>
+            <key>scope</key>
+            <string>source.php storage.type.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9fa</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.php keyword.operator.class, source.php keyword.operator.return-value</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e1efff</string>
+            </dict>
+        </dict>
+        <!-- /php -->
 
         <!-- scss -->
         <dict>
