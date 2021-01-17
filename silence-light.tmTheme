@@ -258,7 +258,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#2c2</string>
+                <string></string>
             </dict>
         </dict>
         <dict>
@@ -1249,11 +1249,11 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.php punctuation.section.embedded</string>
+            <string>embedding.php punctuation.section.embedded, text.html.php punctuation.section.embedded</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#888</string>
+                <string>#555</string>
             </dict>
         </dict>
         <dict>
