@@ -99,7 +99,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>punctuation - (punctuation.definition.string || punctuation.definition.comment)</string>
+            <string>punctuation - (punctuation.definition.string | punctuation.definition.comment | punctuation.definition.annotation)</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -602,7 +602,16 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>source.rust punctuation.definition - punctuation.definition.string, source.rust punctuation.brackets</string>
+            <string>source.rust meta.annotation meta.group</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6e6e6</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.rust punctuation.definition - (punctuation.definition.string | punctuation.definition.annotation | punctuation.definition.comment), source.rust punctuation.brackets, source.rust punctuation.section</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -616,15 +625,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#3e999f</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>source.rust meta.group</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#e6e6e6</string>
             </dict>
         </dict>
         <dict>
