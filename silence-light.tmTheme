@@ -39,7 +39,7 @@
                     }
                     #latextools-preview-math-phantom,
                     #inline-error,
-                    #rust-message, {
+                    #rust-message {
                         border: 1px solid #777;
                     }
                     p {
