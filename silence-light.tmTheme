@@ -74,11 +74,11 @@
                     i, b,
                     span,
                     strong {
-                        display: inline-block;
+
                     }
                     a {
                         color: var(--bluish);
-                        display: inline-block;
+
                     }
                     .error,
                     .deleted {
