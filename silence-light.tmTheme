@@ -371,7 +371,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>meta.tag, meta.tag entity</string>
+            <string>meta.tag entity</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1159,15 +1159,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#ff4500</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>text.html meta.tag</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#000</string>
             </dict>
         </dict>
         <dict>

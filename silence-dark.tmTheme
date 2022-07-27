@@ -337,7 +337,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>meta.tag, meta.tag entity</string>
+            <string>meta.tag entity</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -991,15 +991,6 @@
         <!-- /lua -->
 
         <!-- html -->
-        <dict>
-            <key>scope</key>
-            <string>text.html meta.tag</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#f8fbff</string>
-            </dict>
-        </dict>
         <dict>
             <key>scope</key>
             <string>text.html meta.tag.sgml</string>
